@@ -251,7 +251,7 @@
                 </div>
             </div>`);
 		},
-		// Afficher les tags de filtre
+		// Afficher les tags de filtres
 		showItemTags(gallery, position, tags) {
 			var tagItems =
 				'<li class="nav-item"><span class="nav-link active active-tag" data-images-toggle="all">Tous</span></li>';
@@ -274,7 +274,7 @@
 				return;
 			}
 			$(".active-tag").removeClass("active active-tag");
-			$(this).addClass("active-tag");
+			$(this).addClass("active active-tag");
 
 			var tag = $(this).data("images-toggle");
 
