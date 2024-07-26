@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
@@ -10,16 +10,118 @@
 			href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 			rel="stylesheet"
 		/>
+
 		<meta charset="UTF-8" />
+
 		<title>Nina Carducci photographe à Bordeaux</title>
-		<!-- TODO : Add meta description -->
+
+		<!-- meta description -->
 		<meta
 			name="description"
 			content="Nina Carducci photographe à Bordeaux. Spécialisée dans les portraits, les mariages, les concerts et pour les entreprises."
 		/>
-		<!-- TODO : Add meta FAVICON -->
-		<!-- TODO : Add meta schema.org -->
-		<!-- TODO : Add meta networks opengraph -->
+		<!-- meta FAVICON -->
+		<!-- meta coordonnées schema.org -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "Organization",
+				"name": "Nina Carducci Photography",
+				"address": {
+					"@type": "PostalAddress",
+					"streetAddress": "68 Avenue Alsace-Lorraine",
+					"addressLocality": "BORDEAUX",
+					"postalCode": "33200",
+					"addressCountry": "FR"
+				},
+				"telephone": "+33-5-56-67-78-89",
+				"openingHours": "Mo-Fr 10:00-19:00",
+				"makesOffer": [
+					{
+						"@type": "Offer",
+						"priceCurrency": "EUR",
+						"price": "350",
+						"itemOffered": {
+							"@type": "Service",
+							"serviceType": "Shooting photo",
+							"description": "Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Matériel, déplacement inclus"
+						}
+					},
+					{
+						"@type": "Offer",
+						"priceCurrency": "EUR",
+						"price": "50",
+						"itemOffered": {
+							"@type": "Service",
+							"serviceType": "Retouches",
+							"description": "Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications. 2 AR par photo"
+						}
+					},
+					{
+						"@type": "Offer",
+						"priceCurrency": "EUR",
+						"price": "400",
+						"itemOffered": {
+							"@type": "Service",
+							"serviceType": "Album photos",
+							"description": "Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé. 30 pages recto/verso"
+						}
+					}
+				]
+			}
+		</script>
+
+		<!-- meta networks opengraph for facebook-->
+		<meta property="og:type" content="business.business" />
+		<meta property="og:title" content="Nina Carducci - Photographe" />
+		<meta
+			property="og:description"
+			content="Photographe à Bordeaux, Nina Carducci vous accueille du lundi au vendredi de 10h à 19h."
+		/>
+		<meta
+			property="og:url"
+			content="https://www.votre-site.com/nina-carducci"
+		/>
+		<meta property="og:site_name" content="Nina Carducci" />
+		<meta
+			property="business:contact_data:street_address"
+			content="68 Avenue Alsace-Lorraine"
+		/>
+		<meta property="business:contact_data:locality" content="BORDEAUX" />
+		<meta
+			property="business:contact_data:region"
+			content="Nouvelle-Aquitaine"
+		/>
+		<meta property="business:contact_data:postal_code" content="33200" />
+		<meta property="business:contact_data:country_name" content="France" />
+		<meta
+			property="business:contact_data:phone_number"
+			content="+33-5-56-67-78-89"
+		/>
+		<meta property="business:hours:day" content="monday" />
+		<meta property="business:hours:day" content="tuesday" />
+		<meta property="business:hours:day" content="wednesday" />
+		<meta property="business:hours:day" content="thursday" />
+		<meta property="business:hours:day" content="friday" />
+		<meta property="business:hours:start" content="10:00" />
+		<meta property="business:hours:end" content="19:00" />
+
+		<!-- twitter cards -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content="Nina Carducci - Photographe" />
+		<meta
+			name="twitter:description"
+			content="Photographe à Bordeaux, Nina Carducci vous accueille du lundi au vendredi de 10h à 19h."
+		/>
+		<meta
+			name="twitter:url"
+			content="https://www.votre-site.com/nina-carducci"
+		/>
+		<meta
+			name="twitter:image"
+			content="https://www.votre-site.com/path/to/image.jpg"
+		/>
+
 		<link rel="icon" href="#" type="image/png" />
 		<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
 		<script
@@ -44,7 +146,9 @@
 							class="social-link"
 							href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
 							target="_blank"
-							><img src="assets/images/instagram.png" alt=""
+							><img
+								src="assets/images/instagram.png"
+								alt="Instagram"
 						/></a>
 					</li>
 				</ul>
@@ -82,23 +186,23 @@
 					<div class="carousel-inner">
 						<div class="carousel-item active">
 							<img
-								src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg"
+								src="./assets/images/slider/ryoji-iwata-homme-sur-un-passage-Pieton.jpg"
 								class="d-block w-100"
-								alt="..."
+								alt="Businessman traversant sur un passage piéton. Photo d'entrepreneur de Nina Carducci"
 							/>
 						</div>
 						<div class="carousel-item">
 							<img
-								src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg"
+								src="./assets/images/slider/nicholas-green-foule-concert.jpg"
 								class="d-block w-100"
-								alt="..."
+								alt="Foule de personnes dans un concert. Photo de concert de Nina Carducci"
 							/>
 						</div>
 						<div class="carousel-item">
 							<img
-								src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg"
+								src="./assets/images/slider/edward-cisneros-mariés-sembrassant.jpg"
 								class="d-block w-100"
-								alt="..."
+								alt="Mariés en train de s'embrasser pendant leur mariage. Photo de couple de Nina Carducci"
 							/>
 						</div>
 					</div>
@@ -130,7 +234,10 @@
 			</section>
 			<section id="about">
 				<div class="picture left">
-					<img src="./assets/images/nina.png" />
+					<img
+						src="./assets/images/portrait.png"
+						alt="Portrait de Nina Carducci"
+					/>
 				</div>
 				<div id="about-me">
 					<h2 class="about-me__title">A propos de moi</h2>
@@ -161,47 +268,56 @@
 						<img
 							data-gallery-tag="Concert"
 							class="gallery-item"
-							src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg"
+							src="./assets/images/gallery/concerts/aaron-paul-scene-concert.jpg"
+							alt="Scène de concert avec des éclairages rouges - Photo de concert de Nina Carducci"
 						/>
 						<img
 							data-gallery-tag="Entreprises"
 							class="gallery-item"
-							src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg"
+							src="./assets/images/gallery/entreprise/ali-morshedlou-homme-d-affaires.jpg"
+							alt="Homme d'affaires en costume cravate - Photo de travail de Nina Carducci"
 						/>
 						<img
 							data-gallery-tag="Entreprises"
 							class="gallery-item"
-							src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg"
+							src="./assets/images/gallery/entreprise/jason-goodman-femme-riant-reunion.jpg"
+							alt="Femme riant lors d'une réunion en entreprise - Photo de société de Nina Carducci"
 						/>
 						<img
 							data-gallery-tag="Mariages"
 							class="gallery-item"
-							src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg"
+							src="./assets/images/gallery/mariage/hannah-busing-main-mariage.jpg"
+							alt="Couples se tenant la main du bout des doigts lors d'une célébration - Photo de fêtes de Nina Carducci"
 						/>
 						<img
 							data-gallery-tag="Portrait"
 							class="gallery-item"
-							src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg"
+							src="./assets/images/gallery/portraits/ade-tunji-homme.jpg"
+							alt="Portrait d'un homme fermant les yeux - Photo de Nina Carducci"
 						/>
 						<img
 							data-gallery-tag="Mariages"
 							class="gallery-item"
-							src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg"
+							src="./assets/images/gallery/mariage/jakob-owens-couple-maries.jpg"
+							alt="Couple de mariés se tenant par la main en riant lors de leur mariage - Photo de Noces de Nina Carducci"
 						/>
 						<img
 							data-gallery-tag="Portrait"
 							class="gallery-item"
-							src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg"
+							src="./assets/images/gallery/portraits/nino-van-prattenburg-femme.jpg"
+							alt="Portrait d'une femme à lunettes - Photo de Nina Carducci"
 						/>
 						<img
 							data-gallery-tag="Concert"
 							class="gallery-item"
-							src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg"
+							src="./assets/images/gallery/concerts/austin-neill-chanteur.jpg"
+							alt="Chanteur sur scène avec un micro - Photo d'artiste de Nina Carducci"
 						/>
 						<img
 							data-gallery-tag="Entreprises"
 							class="gallery-item"
-							src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg"
+							src="./assets/images/gallery/entreprise/mateus-campos-felipe-femme-ordinateur.jpg"
+							alt="Femme riant devant sur un ordinateur portable- Photo de bureau de Nina Carducci"
 						/>
 					</div>
 				</article>
@@ -287,7 +403,7 @@
 			</aside>
 		</main>
 
-		<footer id="contact">
+		<section id="contact">
 			<div class="container">
 				<div class="form-container">
 					<h2>Une question ? Une demande de devis ?</h2>
@@ -296,24 +412,35 @@
 						de 24 heures
 					</p>
 					<form action="" method="post">
-						<label>Nom</label>
-						<input type="text" name="nom" id="nom" />
-						<label>Email</label>
-						<input type="email" name="email" id="email" />
-						<label>Message</label>
+						<label for="nom">Nom</label>
+						<input type="text" name="nom" id="nom" required />
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email" required />
+						<label for="message">Message</label>
 						<textarea
 							name="message"
 							id="message"
 							cols="30"
 							rows="10"
+							required
 						></textarea>
 						<input type="submit" value="Envoyer" />
 					</form>
 				</div>
 				<div class="picture right">
-					<img src="./assets/images/camera.png" />
+					<img
+						src="./assets/images/camera.png"
+						alt="Photo d'un Appareil photo"
+					/>
 				</div>
 			</div>
+		</section>
+		<footer class="informations container py-3">
+			<h2>Nina Carducci</h2>
+			<p>68 Avenue Alsace-Lorraine</p>
+			<p>33200 BORDEAUX</p>
+			<p>Tel : 05.56.67.78.89</p>
+			<p>Horaires : du lundi au vendredi de 10 h à 19 h</p>
 		</footer>
 	</body>
 </html>
