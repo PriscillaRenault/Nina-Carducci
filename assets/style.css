@@ -224,6 +224,10 @@ input[type="submit"] {
     flex-direction: column;
     align-items: flex-end;
 }
+
+.visually-hidden{
+    display: none !important;
+}
 @media all and (max-width: 1180px) {
     .picture {
         flex: 2;
